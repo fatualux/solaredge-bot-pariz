@@ -2,10 +2,9 @@ name: Cron
 
 on:
   schedule:
-    - cron: '30 0 * * *'  # This runs at 12:30 AM
-    - cron: '21 14 * * *' # This runs at 2:30 PM
-    - cron: '30 14 * * *' # This runs at 2:30 PM
-    - cron: '30 16 * * *' # This runs at 4:30 PM
+    - cron: '30 0 * * *' 
+    - cron: '30 14 * * *'
+    - cron: '30 16 * * *'
 
   workflow_dispatch:
 jobs:
